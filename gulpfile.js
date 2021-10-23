@@ -22,7 +22,7 @@ const cssScss = require('gulp-css-scss');
 const files = { 
     htmlPath: "src/**/*.html",
     jsPath: "src/**/*.js",
-    imgPath: "src/**/*.jpg",
+    imgPath: "src/**/*.png",
     sassPath: "src/**/*.scss"
 }
 
