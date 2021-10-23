@@ -7,10 +7,6 @@ $headerFooterColor: linear-gradient(rgb(186, 255, 255), rgb(188, 219, 255)) ;
 
 }
 
-
-
-
-
 /*Hide overflow and fill the entire screen*/
 body{
   background: linear-gradient(to left top, rgb(0, 0, 0), rgb(252, 206, 255)) fixed;
@@ -26,7 +22,11 @@ body{
   justify-content: center;
   min-height: 100vh;
 }
+.updateBtn{
+  @include buttonStyling;
+  background-color: rgb(255, 201, 139);
 
+}
 input{
 width: 100%;
 overflow: hidden;
