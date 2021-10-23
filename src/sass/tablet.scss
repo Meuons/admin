@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) and (min-width: 569px) {
+    textarea{
+        height: 50px;
+    }
+    #webpageAdd{
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+    }
+    .urlInput{
+        width: 120%;
+    }
+    .updateBtn{
+        position: absolute;
+        right: 0;
+            }
+    
+    /*Hide the buttons in the row to leave space for the textarea*/
+    .hide{
+        display: none;
+    }
+     #addURL{
+            width: 160%;
+            }
+       
+
+    .loginInput{
+        width: 300px;
+        margin: 10px;
+    
+    }
+}

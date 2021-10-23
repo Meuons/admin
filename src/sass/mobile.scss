@@ -1,0 +1,82 @@
+@media screen and (max-width: 568px) {
+    body{
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .updateBtn{
+position: absolute;
+right: 0;
+    }
+    #webpageAdd{
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+    }
+    button{
+        font-size: 0.7em;
+    }
+    .hide{
+        display: none;
+    }
+footer{
+    display: none;
+}
+#webpageUpdateHead{
+    display: table-cell;
+}
+
+    tbody{
+        height: 60px;
+    } 
+     /*Expand the URL input field*/
+    #addURL{
+        width: 260%;
+        }
+    input{
+        width: 100%;
+        overflow: hidden;
+        font-size: 0.7em;
+        margin-right: 0;
+    }
+    .dateInput{
+        max-width: 50px ;
+    }
+    .urlInput{
+        width: 380%;
+    }
+    .addInput{
+position: absolute; 
+ td{
+        vertical-align: middle;
+        max-width: 75px;
+    }
+    } 
+    textarea{
+        font-size: 0.8em;
+        width: 100%;
+        height: 35px;
+    }
+  /*Centralize content and cap the size of the container*/
+    #mainContent{
+        position: absolute;
+        align-content: center;
+        justify-content: center;
+        top: 30px;   
+        max-width: 400px;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+        background-color: rgb(218, 251, 255);
+        padding: 10px;
+    }
+   
+    .mobileForm{
+        max-width: 310px;
+        margin-left: 50px;
+    }
+    table{
+        max-width: 315px;
+    }
+    header{
+        height: 30px;
+        }
+      
+}
