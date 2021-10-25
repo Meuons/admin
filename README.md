@@ -1,4 +1,4 @@
-#This ia a interactive interface that works with a REST web service
+# This is a interactive interface that works with a REST web service
 
 With this interface you can interact with the data in a databse by adding, updating or deleting the information that is stored there.
 
