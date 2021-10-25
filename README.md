@@ -10,3 +10,7 @@ It also has a login proctection to keep people wihtout a username and password f
 
 You can connect to other APIs than the one this interface i connected to by default by placing the adress to the API in the url varibale.
 
+# Installation
+
+You install this repo by entering npm install in the terminal followed by gulp
+
