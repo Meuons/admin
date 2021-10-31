@@ -7,11 +7,14 @@ $headerFooterColor: linear-gradient(rgb(186, 255, 255), rgb(188, 219, 255)) ;
 
 }
 
+
+
+
+
 /*Hide overflow and fill the entire screen*/
 body{
-  background: linear-gradient(to left top, rgb(0, 0, 0), rgb(252, 206, 255)) fixed;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  max-width: 100%;
+  background: linear-gradient(to left top, #000000, rgb(252, 206, 255)) fixed;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
   overflow-x: hidden;
   margin: 0;
 }
@@ -20,7 +23,6 @@ body{
 #wrapper{
   display: flex;
   justify-content: center;
-  min-height: 100vh;
 }
 .updateBtn{
   @include buttonStyling;
@@ -29,7 +31,6 @@ body{
 }
 input{
 width: 100%;
-overflow: hidden;
 margin-right: 100px;
 }
 #notification{
@@ -45,6 +46,9 @@ margin-right: 100px;
 }
 tr{
   position: relative;
+  :hover {
+  background-color: rgb(251, 255, 188);
+}
 }
 
 #webpageUpdateHead{
@@ -77,9 +81,7 @@ z-index: 10;
   display: none;
 }
 /*Highlight the rows when hovering over them*/
-tr:hover {
-  background-color: rgb(251, 255, 188);
-}
+
 table, th, td {
   border-bottom: 1px solid black;
   overflow-wrap: normal;
@@ -125,3 +127,4 @@ nav a{
   color: black;
   margin: 10px;
 }
+
